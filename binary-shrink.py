@@ -1,4 +1,12 @@
 binary1 = '101010100101'
-print(len(binary1))
 
-print(binary1.split(0, 3))
+
+def convertTriSectionToSingle(str):
+    print(len(str))
+    i = 0
+    while i is not len(str):
+        print(str[i: i + 3])
+        i += 3
+
+
+convertTriSectionToSingle(binary1)
